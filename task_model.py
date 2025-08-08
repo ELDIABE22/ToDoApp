@@ -1,10 +1,4 @@
 class TaskModel:
-    def __init__(self, task_name):
-        self.task_name = task_name
-
-    def get_task_name(self):
-        return self.task_name
-class TaskModel:
     def _init_(self, task_name):
         self.task_name = task_name
         self.is_completed = False
