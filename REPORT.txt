@@ -1,0 +1,25 @@
+REPORT.txt
+
+1. Pasos realizados:
+* Creamos un repositorio público en GitHub.
+* Cada integrante creó su rama con su nombre.
+* Implementamos funcionalidades.
+* Resolvimos conflicto.
+
+2. Comandos de git:
+* git clone, git checkout -b, git add, git commit, git push
+* git merge, git push origin --delete
+
+3. Conflictos:
+* Conflicto en task_model.py entre is_completed y set_done.
+* Solución: Mantenemos is_completed como atributo central.
+
+4. Contribuciones:
+* Juan: mark como completado.
+* Joel: delete_task() y readme.
+* Jerónimo: conflictos con set_done.
+
+5. Reflexiones:
+* Aprendimos ramas propias para cambios.
+* Conflictos normales, Git facilita resolución.
+* Pull request ayuda a revisar cambios.
