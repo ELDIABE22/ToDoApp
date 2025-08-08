@@ -3,13 +3,14 @@ from task_model import TaskModel
 def main():
     task = TaskModel("Estudiar para el examen")
     print(f"Tarea creada: {task.get_task_name()}")
-    print(f"¿Está completada? {task.is_task_completed()}")
-
     task.mark_as_complete()
-    print("Tarea marcada como completada.")
-
-    print(f"¿Está completada ahora? {task.is_task_completed()}")
+    print(f"Tarea completada (mark_as_complete): {task.is_completed()}")
+    task.set_done()
+    print(f"Tarea completada (set_done): {task.is_completed()}")
+    task.delete_task()
+    print(f"Tarea eliminada (delete_task): {task.get_task_name()}")
+    task.remove_task()
+    print(f"Tarea eliminada (remove_task): {task.get_task_name()}")
 
 if __name__ == "__main__":
     main()
-
